@@ -1,0 +1,20 @@
+Amazon Stock Price Prediction Results
+Date: 2025-05-15 11:10:59
+
+LSTM Model Metrics:
+MSE: 21.0282
+RMSE: 4.5857
+MAE: 3.3024
+R²: 0.9824
+
+GRU Model Metrics:
+MSE: 28.0601
+RMSE: 5.2972
+MAE: 3.9779
+R²: 0.9765
+
+K-Fold Cross Validation Results:
+Mean MSE: 3.2896 ± 0.1777
+Mean RMSE: 1.8130 ± 0.0497
+Mean MAE: 1.0171 ± 0.1792
+Mean R²: 0.9986 ± 0.0001
