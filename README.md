@@ -2,22 +2,23 @@
 
 This repository contains a solution for forecasting Amazon stock prices using Recurrent Neural Networks (RNN), specifically LSTM and GRU models. The primary goal of this project is to develop a predictive model that can accurately forecast future stock prices based on historical data, enabling better investment decisions.
 
-## Project Structure
 amazon-stock-forecast/
 │
-├── main.py # Main script for training and evaluating models
-├── amazon-stock-price-predication-using-lstm-a-9678cb.ipynb # Main script for training and evaluating models
-├── requirements.txt # Required Python packages
-├── README.md # Project documentation
-├── data/ # Directory for datasets
-│ └── amazon_stock_data.csv # Amazon historical stock data
+├── main.py                                      # Main script for training and evaluating models
+├── amazon-stock-price-predication-using-lstm-a-9678cb.ipynb  # Jupyter notebook for LSTM model training
+├── requirements.txt                             # Required Python packages
+├── README.md                                    # Project documentation
 │
-└── results/ # Directory for results and saved models
-├── best_model.h5 # Saved best model
-├── prediction_vs_actual.png # Plot of predicted vs actual prices
-├── training_history.png # Plot of training history
-├── future_predictions.png # Plot of future predictions
-└── results.txt # Detailed results and metrics
+├── data/                                        # Dataset directory
+│   └── amazon_stock_data.csv                    # Amazon historical stock data
+│
+└── results/                                     # Output and saved model results
+    ├── best_model.h5                            # Saved best-performing model (HDF5 format)
+    ├── prediction_vs_actual.png                 # Plot comparing actual vs predicted prices
+    ├── training_history.png                     # Plot of training & validation loss over epochs
+    ├── future_predictions.png                   # Plot of forecasted future stock prices
+    └── results.txt                              # Text summary of model performance metrics
+
 
 
 ## Requirements
