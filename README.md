@@ -2,7 +2,8 @@
 
 This repository contains a solution for forecasting Amazon stock prices using Recurrent Neural Networks (RNN), specifically LSTM and GRU models. The primary goal of this project is to develop a predictive model that can accurately forecast future stock prices based on historical data, enabling better investment decisions.
 
-```amazon-stock-forecast/
+```
+amazon-stock-forecast/
 │
 ├── main.py                                      # Main script for training and evaluating models
 ├── amazon-stock-price-predication-using-lstm-a-9678cb.ipynb  # Jupyter notebook for LSTM model training
